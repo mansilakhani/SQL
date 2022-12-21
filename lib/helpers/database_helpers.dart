@@ -39,7 +39,7 @@ class DBHelper {
     });
   }
 
-  /// TODO: updateRecord();
+  /// TODO: insertRecord();
   Future<int> insertRecord({
     required String name,
     required int age,
@@ -79,6 +79,7 @@ class DBHelper {
     return students;
   }
 
+  /// TODO: updateRecord();
   Future<int> updateRecord({
     required String name,
     required int age,
